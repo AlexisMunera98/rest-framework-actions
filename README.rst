@@ -2,8 +2,15 @@
 Rest framework actions
 =======================
 
-Restframework actions is a DRF app extension to give you more control over the actions of
-ModelViewSet.
+Django Rest Framework provides some cool generic classes like ModelViewSet to create services using a defined serializer
+and model but sometimes you want to have more control over the serializer class used in each action.
+rest-framework-actions is a DRF app extension to give you more control over the actions of ModelViewSet. You can specified
+a serializer class to each action like list, retrieve, update.
+
+* Source Code: https://github.com/AlexisMunera98/rest-framework-actions
+* PyPI: https://pypi.org/project/rest-framework-actions/
+* License: MIT
+
 
 Quick start
 -----------
